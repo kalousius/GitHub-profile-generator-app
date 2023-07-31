@@ -27,6 +27,9 @@ function App() {
           />
         </div>
         {githubUsername && <GitUserData username={githubUsername} />}
+        <div class="copy-right">
+          &copy; {new Date().getFullYear()} Kalousius. All rights reserved.
+        </div>
       </div>
     </div>
   );
