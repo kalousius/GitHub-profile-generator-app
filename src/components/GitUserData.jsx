@@ -33,22 +33,40 @@ const GitUserData = ({ username }) => {
           <i className="fas fa-user"></i> {login}
         </a>
       </h2>
-      <img src={avatar_url} alt="Profile" className="w-24 h-24 rounded-full mb-2" />
-      <p>
-        <i className="fas fa-users"></i> Followers: {followers}
-      </p>
-      <p>
-        <i className="fas fa-user-friends"></i> Following: {following}
-      </p>
-      <p>
-        <i className="fas fa-code-branch"></i> Repositories: {public_repos}
-      </p>
-      <p>
-        <i className="fas fa-map-marker-alt"></i> Location: {location}
-      </p>
-      <p>
-        <i className="fas fa-clock"></i> Joined Github: {new Date(created_at).toDateString()}
-      </p>
+      <div className="profile-image-container">
+  <img src={avatar_url} alt="Profile" className="profile-image" />
+</div>
+
+<div className="git-user-info">
+  <p>
+    <i className="fas fa-users"></i> Followers: {followers}
+  </p>
+</div>
+
+<div className="git-user-info">
+  <p>
+    <i className="fas fa-user-friends"></i> Following: {following}
+  </p>
+</div>
+
+<div className="git-user-info">
+  <p>
+    <i className="fas fa-code-branch"></i> Repositories: {public_repos}
+  </p>
+</div>
+
+<div className="git-user-info location">
+  <p>
+    <i className="fas fa-map-marker-alt"></i> Location: {location}
+  </p>
+</div>
+
+<div className="git-user-info joined">
+  <p>
+    <i className="fas fa-clock"></i> Joined Github: {new Date(created_at).toDateString()}
+  </p>
+</div>
+
     </div>
   );
 };

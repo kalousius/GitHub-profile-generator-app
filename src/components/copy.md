@@ -60,3 +60,23 @@ const GitUserData = ({ username }) => {
 };
 
 export default GitUserData;
+
+
+
+
+<img src={avatar_url} alt="Profile" className="profile-image mb-2" />
+      <p>
+        <i className="fas fa-users"></i> Followers: {followers}
+      </p>
+      <p>
+        <i className="fas fa-user-friends"></i> Following: {following}
+      </p>
+      <p>
+        <i className="fas fa-code-branch"></i> Repositories: {public_repos}
+      </p>
+      <p>
+        <i className="fas fa-map-marker-alt"></i> Location: {location}
+      </p>
+      <p>
+        <i className="fas fa-clock"></i> Joined Github: {new Date(created_at).toDateString()}
+      </p>
