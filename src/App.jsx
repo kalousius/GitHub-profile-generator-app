@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import GitUserData from './components/GitUserData';
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Import the Font Awesome CSS
-import './index.css'; // Import the CSS file
+//import './index.css'; // Import the CSS filewith Tailwind css style
 function App() {
   const [githubUsername, setGithubUsername] = useState(''); // State to hold the GitHub username
 
@@ -10,13 +10,13 @@ function App() {
   };
 
   return (
-    <div className="bg-blue-200 min-h-screen flex items-center justify-center">
-      <div className="container mx-auto bg-white rounded-lg shadow-lg p-8">
-        <h1 className="text-4xl font-bold mb-4">Git User Data</h1>
-        <div className="mb-4">
+    <div className="App">
+      <div className="container">
+        <h1 className="title">Find Github User Profile</h1>
+        <div className="input-container">
           <input
             type="text"
-            className="border rounded p-2 w-full"
+            className="input"
             placeholder="Enter GitHub username"
             value={githubUsername}
             onChange={handleInputChange}

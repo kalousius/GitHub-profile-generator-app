@@ -1,17 +1,9 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-step
-## frist  create git repository on my github
+# frist  create git repository on my github
 2. git clone https://github.com/kalousius/GitHub-profile-generator-app.git
 Navigate to the project folder
 3.create-vite GitHub-profile-generator-app --template react (create a new Vite project )
 4.Navigate to the project folder
+( DEAR GOD@DESKTOP-4KBFB6L MINGW64 /d/projects/Bootcamp javascript 2023/GitHub-profile-generator-app/GitHub-profile-generator-app (main))
 5. Once inside the project folder, install the project dependencies using npm:
 npm install
 6.  then Start the development server
@@ -29,7 +21,4 @@ npm run sdev
 
 # # notes
 After add any pulg u need to build again by (pm run build) after npm run dev
-
-
-
 
