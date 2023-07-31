@@ -6,7 +6,7 @@ The GitHub Profile Generator provides various details about the user, such as th
 The application features a visually appealing and user-friendly design, with elements like a GitHub logo and a circular profile image for the user's avatar. The profile information is neatly organized and displayed in separate sections for easy readability.
 
 Overall, the GitHub Profile Generator serves as a handy tool for quickly obtaining essential information about GitHub users and is suitable for developers or anyone interested in exploring GitHub profiles.<br>
- ##The GitHub Profile Generator project is being developed using the following tools and methods:
+ # The GitHub Profile Generator project is being developed using the following tools and methods:
 
 1. **React**: Utilizing the React JavaScript library to build the user interface and manage state efficiently.
 
