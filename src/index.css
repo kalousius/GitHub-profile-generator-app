@@ -96,8 +96,48 @@
   font-weight: bold;
 }
  
+.top-languages {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333; /* Change this to the desired font color */
+}
 
+/*stle for the repositories */
+.repositories-list {
+  list-style: none;
+  padding: 0;
+}
 
+.repository-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
 
+.repository-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
 
+.repository-description {
+  margin-bottom: 10px;
+  color: #888;
+}
+
+.repository-details {
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+}
+
+.repository-details span {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.repository-details i {
+  margin-right: 5px;
+}
 
