@@ -112,7 +112,7 @@ const GitUserData = ({ username }) => {
       </div>
 
       <h3 className="text-lg font-bold mb-2">Repositories:</h3>
-     <ul className="repositories-list">
+      <ul className="repositories-list">
   {repositories.map((repo) => (
     <li key={repo.id} className="repository-item">
       <div className="repository-info">
