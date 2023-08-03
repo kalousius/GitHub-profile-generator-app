@@ -24,6 +24,7 @@
 
 .input-container {
   margin-bottom: 1rem;
+  position: relative;
 }
 
 .input {
@@ -139,4 +140,29 @@
 
 .repository-details i {
   margin-right: 5px;
+}
+/* button for sumbit */
+
+.submit-button {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 20px;
+  border: 2px solid #0a60e0;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+  
+}
+
+.submit-button:hover {
+  background-color: #333;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.submit-button:focus {
+  outline: none;
 }
